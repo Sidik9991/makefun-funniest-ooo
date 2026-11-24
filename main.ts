@@ -44,6 +44,18 @@ const CANDIDATES: Candidate[] = [
     text: "Thanks for your email. I am on a beach with no signal, no laptop, and, as of this morning, no memory of my password.",
     scores: [2, 1, 2, 1, 2],
   },
+  {
+    text: "Thank you for your message. I am currently in a cabin arguing with a wood stove. The stove is winning. Replies resume Monday.",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    text: "Out of office: I finally used the vacation days they kept 'banking' for me. Turns out the bank was also on vacation. Permanently.",
+    scores: [2, 2, 1, 2, 1],
+  },
+  {
+    text: "Out of office until Friday. I have left detailed instructions with my assistant, who is also out of office. We planned this together.",
+    scores: [2, 2, 1, 1, 2],
+  },
 ];
 
 function weightedTotal(c: Candidate): number {
